@@ -16,7 +16,7 @@ class Post
 
     public function getDatos($title, $description, $publicationDate,$publication)
     {
-        $this->title=$conexion;
+        $this->title=$title;
         $this->description=$description;
         $this->publicationDate=$publicationDate;
         $this->publication=$publication;
