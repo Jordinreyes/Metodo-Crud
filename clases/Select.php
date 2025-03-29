@@ -9,6 +9,7 @@ class Select
         $this->conexion=$conexion;
     }
 
+
     public function get(){
         try{
             $sql = "SELECT * FROM posts";
