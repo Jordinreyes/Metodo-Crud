@@ -61,7 +61,8 @@
     <title>Update</title>
 </head>
 <body>
-
+    <?php require_once "../navbar/navbar.php" ?>
+    
     <form action="" method="post">
         <h1 style='color:green'>Update</h1>
 

@@ -28,6 +28,8 @@
     <title>Delete</title>
 </head>
 <body>
+    <?php require_once "../navbar/navbar.php" ?>
+    
     <table border="1">
         <tr>
             <th>ID NEW</th>

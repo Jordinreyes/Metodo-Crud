@@ -56,6 +56,8 @@
     <title>Form Post</title>
 </head>
 <body>
+    <?php require_once "../navbar/navbar.php" ?>
+    
     <form action="" method="post">
         <h1>Add News</h1>
         <div>
