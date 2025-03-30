@@ -16,6 +16,7 @@
         $delete = new Delete($conexion);
         $delete->id($id);
         $delete->delete();        
+        echo "<h1 style='color:green'>Registro eliminado</h1>";
     }
     
 ?>
@@ -29,7 +30,7 @@
 </head>
 <body>
     <?php require_once "../navbar/navbar.php" ?>
-    
+
     <table border="1">
         <tr>
             <th>ID NEW</th>
