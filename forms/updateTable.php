@@ -40,7 +40,7 @@
             $update->datos($title, $description, $publicationDate, $publication, $id);
 
             if($update->update()){
-                echo "<h1>Datos actualizado</h1>";
+                echo "<h1 style='color:green'>Datos actualizado</h1>";
             }else{
                 throw new Exception("No se ha podido actualizar los datos");
             }
@@ -61,6 +61,7 @@
     <title>Update</title>
 </head>
 <body>
+    <?php require_once "../navbar/navbar.php" ?>
 
     <form action="" method="post">
         <h1 style='color:green'>Update</h1>
